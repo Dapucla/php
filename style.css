@@ -1,0 +1,126 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+   color: white
+}
+
+ul {
+   display: flex;
+}
+
+
+ol {
+   display: flex;
+}
+
+header {
+   width: 100%;
+   font-size: 2rem;
+   color: #fff;
+   z-index: 1;
+   background-color: #192965;
+   height: 7rem;
+}
+
+.logo {
+   width: 7rem;
+   height: 7rem;
+   display: flex;
+   align-items: center;
+}
+
+ul {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style: none;
+}
+
+
+main ol li,
+main ul li {
+   margin: 0 2rem;
+}
+
+main ul {
+   list-style: disc;
+}
+
+main ul li {
+   list-style: disc;
+}
+
+main {
+   background-color: lightgrey;
+   display: flex;
+   justify-content: center;
+   max-width: 100%;
+   min-height: 100vh;
+   font-size: 1.2rem;
+}
+
+div {
+   padding-top: 3rem;
+}
+
+
+
+table {
+   padding: 3rem;
+}
+
+table td:first-child {
+   border-left: 2px solid black;
+   border-bottom: 2px solid black;
+}
+
+table tr:last-child {
+   border-bottom: 2px solid black;
+}
+
+table tr td {
+   padding: 2rem;
+   border-right: 2px solid black;
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+}
+
+.footer__container {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 7rem;
+   background-color: darkgreen;
+   color: #fff;
+   font-size: 3rem;
+}
+
+h2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+main a {
+   background-color: darkgrey;
+   width: 80px;
+   height: 80px;
+   border: 2px solid black;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+
+}
+
+.holder {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
